@@ -1,5 +1,3 @@
-Here's your profile translated into English:
-
 # 👋 Hello, I'm Hyomoron!
 
 Born in 1998, from Tochigi Prefecture, aspiring Web Engineer.
