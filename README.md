@@ -8,7 +8,7 @@
 ### 【ココじゃ】都道府県魅力度ランキングSNS
 「地元の魅力を可視化し、みんなで日本を盛り上げる」をコンセプトにした、投稿型ランキングSNSです。
 
-- **URL:** [デプロイ先のリンクを入れる]
+- **URL:** https://www.cocoja.jp/
 - **GitHub:** https://github.com/hyoma-log/cocoja-Project
 
 ### 開発の背景
