@@ -15,32 +15,22 @@
 テレビのランキング番組をヒントに、「有名な観光地だけでなく、地元の人しか知らない『本物の魅力』を自分たちの手でランキングに反映させたい」という想いから開発しました。
 
 ### 使用技術
-**1. バックエンド (Backend)**
 
-Ruby 3.2.2<br>
-Ruby on Rails 7.1.3
+このアプリケーションは、**Ruby on Rails 7.2** をベースに、**Hotwire (Turbo/Stimulus)** を活用したモダンでシンプルなMPA (Multi-Page Application) 構成を採用しています。
 
-**2. フロントエンド (Frontend)**
-
-Tailwind CSS<br>
-HTML<br>
-javaScript
-
-**3. データベース (Database)**
-
-PostgreSQL
-
-**4. インフラ・クラウドサービス**
-
-データベース（本番環境）: Neon<br>
-画像ストレージ: Cloudinary<br>
-デプロイ先: Back4app (Containers)
-
-**5. 開発ツール・その他**
-
-Docker / Docker Compose<br>
-RSpec<br>
-RuboCop
+| カテゴリー | 使用技術 |
+| :--- | :--- |
+| **バックエンド** | Ruby 3.2 / Ruby on Rails 7.2.0 |
+| **フロントエンド** | JavaScript, Hotwire (Turbo, Stimulus), Tailwind CSS, esbuild |
+| **データベース** | PostgreSQL (Neon) |
+| **インフラ / 実行環境** | Docker, Kamal, Back4app (Containers), Redis |
+| **Web サーバー** | Puma |
+| **認証機能** | Devise, OmniAuth (Google) |
+| **CI / CD (自動テスト・静的解析)** | GitHub Actions (RSpec, RuboCop, Brakeman) |
+| **環境構築** | Docker Compose |
+| **テストフレームワーク** | RSpec, Capybara, FactoryBot |
+| **メール送信** | SMTP (Gmail) |
+| **ストレージ / 画像管理** | Cloudinary |
 
 ### こだわったポイント
 - **独自ランキングロジック:** 投稿がダイレクトにポイントとして集計される仕組みを実装。
